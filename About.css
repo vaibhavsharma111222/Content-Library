@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base styles for the body */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background: #0c111b;
+    color: #fff;
+}
+
+/* Styles for the header */
+.header {
+    background: #1a233a;
+    padding: 20px 0;
+}
+
+/* Container for centering content and aligning items */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Styling for the logo */
+.logo {
+    height: 50px;
+}
+
+/* Navigation links styles */
+.nav-links {
+    list-style: none;
+    padding: 20px;
+    display: flex; /* Added to align items in a row */
+}
+
+.nav-links li {
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #1f80e0;
+}
+/* .nav-links li img{
+    height: 10px;
+    width: 10px;
+} */
+
+/* Mission and Team sections styling */
+.mission-section,
+.team-section {
+    padding: 50px 0;
+}
+
+.mission-section {
+    background: #0c111b;
+}
+
+.mission-section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1f80e0;
+}
+
+.mission-section p {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.team-section {
+    background: #1a233a;
+}
+
+.team-section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1f80e0;
+}
+
+.team-section p {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Flexbox for team member layout */
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    text-align: center;
+    margin
+
+
+
+    margin: 20px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.team-member h2 {
+    margin: 10px 0 5px;
+    color: #fff;
+}
+
+.team-member p {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Footer styling */
+.footer {
+    background: #1a233a;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+/* Social links styling */
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #1f80e0;
+}
+
+/* Video card container styles */
+.video-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adds space between cards */
+    justify-content: center; /* Centers the cards */
+}
+
+.video-card {
+    flex: 1 1 calc(20% - 20px); /* Adjusts width with space between */
+    margin: 10px;
+}
+
+.video-card iframe {
+    width: 100%;
+    height: auto;
+    display: block; /* Ensures iframe takes full width */
+}
+
+/* Card container styles for movies and shows */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adds space between cards */
+    justify-content: center; /* Centers the cards */
+}
+
+.card {
+    flex: 1 1 calc(25% - 20px); /* Adjusts width with space between */
+    background: #1a233a;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+}
+
+.card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.name {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.des {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.watchlist-btn {
+    background: #1f80e0;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+.watchlist-btn:hover {
+    background: #155a9e;
+}
+
+/* Buttons for movie list */
+.pre-btn,
+.nxt-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.pre-btn img,
+.nxt-btn img {
+    width: 50px; /* Adjust based on your preference */
+    height: auto;
+}
